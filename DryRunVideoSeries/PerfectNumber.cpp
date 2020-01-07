@@ -12,7 +12,7 @@ int main()
         int sum=0,n,rem;
         cin>>n;
         
-        //loop to get all the factors except the number itself and add them
+        // loop to get all the factors except the number itself and add them
         for(int i=1; i<n; i++){
             rem=n%i;
             if(rem==0){
@@ -20,9 +20,9 @@ int main()
             }
         }
         
-        //cout<<"sum= "<<sum<<endl;  debugging statement
+        // cout<<"sum= "<<sum<<endl;  debugging statement
         
-        //if the sum is equal to n, print true else false
+        // if the sum is equal to n, print true else false
         if(sum==n)
             cout<<"true"<<endl;
         else
