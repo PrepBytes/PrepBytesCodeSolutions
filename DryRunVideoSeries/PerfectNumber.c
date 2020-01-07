@@ -3,6 +3,7 @@ int main()
 {
   int t; // variable for storing test cases
   scanf("%d",&t); // initialize test case variable
+  
   // start test case loop
   while(t--)
   {
@@ -10,7 +11,7 @@ int main()
     int n,sum=0,rem;
     scanf("%d",&n);
     
-    //loop to get all the factors and add them
+    // loop to get all the factors except the number itself and add them
     for(int i=1;i<=n/2;i++)
     {
       rem=n%i;
@@ -18,9 +19,9 @@ int main()
         sum+=i;
     }
     
-    //printf("%d\n",sum); debugging statement
+    // printf("%d\n",sum); debugging statement
     
-    //if the sum is equal to n, print true else false
+    // if the sum is equal to n, print true else false
     if(sum==n)
       printf("true\n");
     else
