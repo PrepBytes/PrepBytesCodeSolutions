@@ -18,6 +18,8 @@ int main()
         sum+=i;
     }
     
+    //printf("%d\n",sum); debugging statement
+    
     //if the sum is equal to n, print true else false
     if(sum==n)
       printf("true\n");
